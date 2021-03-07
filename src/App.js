@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
+import NewPost from './components/NewPost'
+import SearchPost from './components/SearchPost'
+import './style.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <Router>
+      <div>
+      <h1 style= {{textAlign: 'center', marginTop: '15px', fontFamily: 'cursive', fontSize: '45px'}}>Blog Posts</h1>
+      <div className = "link-container">
+          <Link to = "/addposts" className = "add-post">NEW POST</Link> 
+          <Link to = "/postlists" className = "lists-post">PUBLISHED</Link>
+      </div>
+
+      <Route path = "/postlists" component = {SearchPost} exact = {true} /> 
+      <Route path = "/addposts" component = {NewPost} />
+      </div>
+    </Router>
+  )
 }
 
-export default App;
+export default App

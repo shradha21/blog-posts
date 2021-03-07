@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+.link-container {
+  background-color: cornflowerblue;
+  height: 40px;
+  padding: 10px;
+  top:20px
+}
+
+.add-post {
+  margin-left: 550px;
+  text-decoration: none;
+  color: black;
+}
+
+.lists-post {
+  text-decoration: none;
+  color: black;
+  margin-left: 364px
+}
+
+.publish-button {
+  border-radius: 2px;
+  background-color: lightslategray;
+  margin-top: 20px;
+  padding: 5px
+}
+
+.form-container {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 860px
+}
+
+.text-field {
+  height: 20px;
+}
+
+.text-area {
+  width: 20px;
+  height: 20px;
+}
+
+/* .search-style {
+  background-color: burlywood;
+  height: 20px;
+} */
+
+.search {
+  margin: 10px 10px;
+  height: 43px;
+  padding-top: 10px;
+  background-color: burlywood;
+  margin-top: 12px
+}
+
+.icon-search {
+  position: absolute
+}
+
+.search-input-field {
+  text-align: center;
+  width: 250px;
+}
+
+.cancel-btn {
+  position: absolute;
+  margin-top: -21px;
+  margin-left: 149px;
+}
+
+.search-style { 
+  position: relative;
+  margin-left: 1011px;;
+  text-align: center;
+  border: none;
+  height: 24px;
+  width: 200px
+}
+
+.search-icon {
+  margin-left: 655px;
+  position: absolute;
+}
+
+.button-group {
+  margin: 0px 10px;
+  background-color: cornflowerblue;
+  height: 50px;
+  padding: 2px;
+}
+
+.btn-style {
+  margin-left: 452px;
+  margin-top: 13px;
+  padding: 5px 31px;
+  border: none;
+  border-radius: 66px;
+}
+
+.cancel {
+  padding: 2px;
+}
+
+.box-style {
+  width: 220px;
+  height: 200px;
+  border: 2px solid black;
+  margin-top: 5px;
+}
+
+.title {
+  border-bottom: 2px solid black
+}
